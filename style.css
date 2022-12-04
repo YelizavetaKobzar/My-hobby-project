@@ -117,3 +117,17 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+@media (max-width: 576px) {
+  body {
+    text-align: center;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  p {
+    background-color: aliceblue;
+  }
+  img {
+    display: none;
+  }
+}
